@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="allblock"> 
+        <label for="red" class="label">(R) Vermelho:       </label>
+        <input type="range" onchange="mudar('red')" class="range" id='red' name ="vermelho" min="0" max="255" >
+        <input type='text' id= "textRed" class="text" disabled value="127,5">
+        <br><br>
+    
+        <label for="green" class="label">(G) Verde:       </label>
+        <input type="range" onchange="mudar('green')" class="range" id='green' name ="green"  min="0" max="255">
+        <input type='text' class="text" id= 'textGreen' disabled value="127,5">
+        <br><br>
+        
+        <label for="blue" class="label">(B) Azul:       </label>
+        <input type="range" onchange="mudar('blue')" class="range" id='blue' name ="blue"  min="0" max="255">
+        <input type='text' class="text" id= 'textBlue' disabled value="127,5">
+        <br><br>
+    </div>
+
+    <div class='block'>
+        
+        <div class="squareCSS" id="squareCSS">
+
+        </div>
+
+    </div>
+    
+
+    <script src = "introJS.js"></script>
+</body>
+</html>

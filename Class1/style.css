@@ -1,0 +1,29 @@
+.allblock{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.label{
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.range{
+    width: 20%;
+}
+
+.text{
+
+    width: 6%;
+}
+
+.squareCSS{
+    width: 20%;
+    height: 0; /* A mágica está aqui */
+    padding-bottom: 20%; /* ... e está aqui */
+    margin: 1%;
+    margin-left: 40%;
+    float: left;
+    position: relative;
+    background-color: rgb(127.5,127.5,127.5);
+}
